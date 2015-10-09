@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^10.2.6",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reflux": "^0.2.3"
+  },
+  "scripts":{
+  	"build":"browserify -t babelify app.js > build.js"
+  }
+}
